@@ -1,5 +1,23 @@
-# Resumo de Mudanças
+# Change Summary — 2026-03-02
 
-> Arquivo gerado automaticamente pelo pipeline Claude + n8n.
-> Aguardando primeira execução.
-# Teste do pipeline
+**Repositório:** Pielak/projeto-demo-ia
+**Autor:** Pielak
+**Branch:** main
+**Horário:** 2026-03-02 17:25:15
+
+## Commit
+```
+test: validando node Code no pipeline
+```
+
+## Arquivos Modificados
+app/models.py
+
+## Arquivos Adicionados
+nenhum
+
+## Arquivos Removidos
+nenhum
+
+---
+*Gerado automaticamente pelo pipeline Claude Inspector*
