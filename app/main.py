@@ -32,3 +32,4 @@ def deletar(id: int):
         raise HTTPException(status_code=404, detail="Cliente não encontrado")
 # ajuste final do pipeline
 # correcao do pipeline
+# teste cloudflare tunnel
