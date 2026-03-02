@@ -12,3 +12,4 @@ Mock de automação de verificação de código e geração de documentação t�
 - `docs/` — documentação gerada automaticamente
 - `reports/` — relatórios JSON de cada execução
 - `logs/` — registros de execução do pipeline
+# pipeline salva artefatos automaticamente
