@@ -17,3 +17,4 @@ Mock de automação de verificação de código e geração de documentação t�
 # pipeline salva artefatos automaticamente
 # teste ciclo completo
 # teste artefatos
+# teste artefatos
