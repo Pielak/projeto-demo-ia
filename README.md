@@ -14,3 +14,4 @@ Mock de automação de verificação de código e geração de documentação t�
 - `logs/` — registros de execução do pipeline
 # pipeline salva artefatos automaticamente
 # pipeline salva artefatos automaticamente
+# pipeline salva artefatos automaticamente
