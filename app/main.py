@@ -33,3 +33,4 @@ def deletar(id: int):
 # ajuste final do pipeline
 # correcao do pipeline
 # teste cloudflare tunnel
+# teste salvar artefatos
