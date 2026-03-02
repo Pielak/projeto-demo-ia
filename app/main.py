@@ -34,3 +34,4 @@ def deletar(id: int):
 # correcao do pipeline
 # teste cloudflare tunnel
 # teste salvar artefatos
+# teste salvar artefatos
