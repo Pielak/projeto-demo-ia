@@ -3,7 +3,7 @@ contador_id = 1
 
 def get_all():
     return clientes
-//teste de alteração"
+
 def get_by_id(id):
     for c in clientes:
         if c["id"] == id:
