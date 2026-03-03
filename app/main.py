@@ -33,7 +33,7 @@ def deletar(id: int):
 # teste salvar artefatos
 # teste reprovacao pipeline
 import os
-password = "admin123"  # senha hardcoded
+password = "admidadaan123"  # senha hardcoded
 token = "ghp_xxxxxfsfsfssxxxxxx"  # token exposto
 def funcao_sem_tratamento_erro():
     x = 1/0
