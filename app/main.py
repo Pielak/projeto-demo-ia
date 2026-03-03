@@ -31,3 +31,9 @@ def deletar(id: int):
     if not database.delete(id):
         raise HTTPException(status_code=404, detail="Cliente não encontrado")
 # teste salvar artefatos
+# teste reprovacao pipeline
+import os
+password = "admin123"  # senha hardcoded
+token = "ghp_xxxxxxxxxxx"  # token exposto
+def funcao_sem_tratamento_erro():
+    x = 1/0
