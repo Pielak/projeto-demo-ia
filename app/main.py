@@ -30,8 +30,4 @@ def atualizar(id: int, cliente: Cliente):
 def deletar(id: int):
     if not database.delete(id):
         raise HTTPException(status_code=404, detail="Cliente não encontrado")
-# ajuste final do pipeline
-# correcao do pipeline
-# teste cloudflare tunnel
-# teste salvar artefatos
 # teste salvar artefatos
