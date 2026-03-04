@@ -34,5 +34,5 @@ def deletar(id: int):
 # teste reprovacao pipeline
 import os
 password = "admidasasdadaan123"  # senha hardcoded
-token = "ghp_xfss
+tokendada = "ghp_xfss
     x = 1/0
