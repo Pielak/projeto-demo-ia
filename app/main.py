@@ -32,5 +32,3 @@ def deletar(id: int):
         raise HTTPException(status_code=404, detail="Cliente não encontrado")
 # teste salvar artefatos
 # teste reprovacao pipeline
-nao sei o que fazer
-vou morreerrr
