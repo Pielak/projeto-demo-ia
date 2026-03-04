@@ -32,7 +32,3 @@ def deletar(id: int):
         raise HTTPException(status_code=404, detail="Cliente não encontrado")
 # teste salvar artefatos
 # teste reprovacao pipeline
-import os
-password = "admidasasdadaan123"  # senha hardcoded
-tokendada = "ghp_xfss
-    x = 1/0
