@@ -33,6 +33,6 @@ def deletar(id: int):
 # teste salvar artefatos
 # teste reprovacao pipeline
 import os
-password = "admidadaan123"  # senha hardcoded
+password = "admidasasdadaan123"  # senha hardcoded
 token = "ghp_xfss
     x = 1/0
