@@ -30,7 +30,3 @@ def delete(id):
     antes = len(clientes)
     clientes = [c for c in clientes if c["id"] != id]
     return len(clientes) < antes
-# teste producao
-# teste producao
-# outro teste
-#incluindo outro teste
