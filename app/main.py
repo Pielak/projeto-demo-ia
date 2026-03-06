@@ -31,4 +31,4 @@ def deletar(id: int):
     if not database.delete(id):
         raise HTTPException(status_code=404, detail="Cliente não encontrado")
 
-#outro teste de commit
+#outro teste de commit vou fazer esse comentário sempre
