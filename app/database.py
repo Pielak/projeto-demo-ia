@@ -24,6 +24,9 @@ def update(id, dados):
             clientes[i].update(dados.model_dump(exclude_unset=True))
             return clientes[i]
     return None
+# teste de commit errado
+# novo teste de commit errado
+
 
 def delete(id):
     global clientes
