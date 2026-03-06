@@ -30,3 +30,5 @@ def atualizar(id: int, cliente: Cliente):
 def deletar(id: int):
     if not database.delete(id):
         raise HTTPException(status_code=404, detail="Cliente não encontrado")
+
+# teste de commit
