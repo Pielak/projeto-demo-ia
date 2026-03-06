@@ -32,4 +32,5 @@ def deletar(id: int):
         raise HTTPException(status_code=404, detail="Cliente não encontrado")
 
 #outro teste de commit
+#novo teste de commit
 
