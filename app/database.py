@@ -25,7 +25,6 @@ def update(id, dados):
             return clientes[i]
     return None
 # teste de commit errado
-# novo teste de commit errado
 
 
 def delete(id):
