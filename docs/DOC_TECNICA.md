@@ -23,6 +23,7 @@ Projeto demo de inteligência artificial desenvolvido em Python, focado em demon
 
 | Versão | Data | Commit | Mensagem | Arquivos Alterados |
 |--------|------|--------|----------|--------------------|
+| 1.18 | 2026-03-06 | 2313d48 | Update main.py | app/main.py |
 | 1.17 | 2026-03-06 | 09b28c5 | Update database.py | app/database.py |
 | 1.16 | 2026-03-06 | 0be8bec | Update main.py | main.py |
 | 1.15 | 2026-03-06 | 74e929f | Update main.py | main.py |
@@ -43,8 +44,9 @@ Projeto demo de inteligência artificial desenvolvido em Python, focado em demon
 ```
 projeto-demo-ia/
 ├── app/
-│   └── database.py          # Camada de dados e operações CRUD
-├── main.py                  # Aplicação principal
+│   ├── main.py             # Aplicação principal
+│   └── database.py         # Camada de dados e operações CRUD
+├── main.py                 # Ponto de entrada alternativo
 └── DOC_TECNICA.md          # Documentação técnica automatizada
 ```
 
@@ -78,16 +80,20 @@ projeto-demo-ia/
 
 ## 5. Módulos e Componentes
 
-### 5.1 app/database.py
+### 5.1 app/main.py
+- **Responsabilidade:** Aplicação principal dentro da estrutura modular
+- **Funcionalidades:** Ponto de entrada principal do sistema
+- **Estado:** Em manutenção ativa com limpeza de comentários
+
+### 5.2 app/database.py
 - **Responsabilidade:** Camada de acesso a dados
 - **Funcionalidades:** Operações CRUD para clientes
 - **Padrão:** Repository pattern simplificado
 - **Estrutura:** Funções para create, read, update, delete
 
-### 5.2 main.py
-- **Responsabilidade:** Aplicação principal
-- **Funcionalidades:** Ponto de entrada do sistema
-- **Estado:** Em manutenção constante (limpeza de comentários)
+### 5.3 main.py (raiz)
+- **Responsabilidade:** Ponto de entrada alternativo
+- **Estado:** Em processo de refatoração
 
 ## 6. APIs e Integrações
 
@@ -111,31 +117,34 @@ projeto-demo-ia/
 
 ## 8. Análise do Último Commit
 
-### Commit: 09b28c5
-**Data:** 2026-03-06T18:50:35-03:00
+### Commit: 2313d48
+**Data:** 2026-03-06T21:32:15-03:00
 **Autor:** Luiz Carlos Pielak
 **Branch:** main → **Ambiente:** PRD
-**Arquivos alterados:** app/database.py
+**Arquivos alterados:** app/main.py
 
 #### Impacto Técnico
-Remoção de comentário desnecessário na função update() do módulo database.py. A alteração remove a linha "# novo teste de commit errado" mantendo apenas "# teste de commit errado", evidenciando limpeza de código e remoção de comentários redundantes. A funcionalidade da função update() permanece inalterada, mantendo a lógica de busca e atualização de clientes por ID.
+Continuação do processo de limpeza de código no arquivo app/main.py, onde foi removida parte de um comentário redundante. A alteração transformou "# vou fazer esse comentário sempre continuando a escrever comentário" em "# vou fazer esse comentário", eliminando texto excessivo e mantendo apenas a informação essencial. Esta alteração não afeta a funcionalidade do sistema, focando na melhoria da legibilidade do código.
 
 #### Requisito Atendido
-**Requisito Não-Funcional RNF001 - Manutenibilidade:** A remoção de comentários desnecessários melhora a legibilidade e manutenibilidade do código, eliminando informações redundantes que não agregam valor técnico.
+**Requisito Não-Funcional RNF001 - Manutenibilidade:** A redução de comentários prolixos melhora a qualidade do código, eliminando ruído textual que não contribui para o entendimento técnico. Esta prática está alinhada com os princípios de código limpo e manutenibilidade.
 
 #### Riscos e Observações
-- **Baixo Risco:** Alteração apenas em comentário sem impacto funcional
-- **Padrão Identificado:** Histórico recente mostra limpeza constante de comentários, indicando processo de refatoração em andamento
-- **Observação:** Manter atenção para não remover comentários com valor técnico/documental relevante
+- **Risco Baixo:** Alteração apenas cosmética em comentário sem impacto funcional
+- **Padrão Consolidado:** Histórico consistente de limpeza de comentários indica processo estruturado de refatoração
+- **Observação Técnica:** A mudança do arquivo de main.py (raiz) para app/main.py indica reorganização da estrutura do projeto
+- **Débito Identificado:** Comentários de teste ainda presentes podem ser completamente removidos em futuras iterações
 
 ## 9. Pendências e Débitos Técnicos
 
-1. **Comentários de Teste:** Ainda existem comentários como "# teste de commit errado" que podem ser removidos em futuras limpezas
+1. **Comentários de Teste:** Ainda existem comentários como "# vou fazer esse comentário" que podem ser completamente removidos
 2. **Estrutura de Dados:** Sistema usa dados em memória, considerar persistência para ambientes de produção
 3. **Documentação de Código:** Adicionar docstrings nas funções do database.py para melhor documentação técnica
 4. **Testes Unitários:** Não identificados testes automatizados para as funções CRUD
 5. **Validação de Dados:** Implementar validações nos inputs das funções de database
+6. **Organização de Arquivos:** Consolidar estrutura entre main.py (raiz) e app/main.py para evitar duplicação
+7. **Comentários Residuais:** Remover completamente comentários de teste que não agregam valor técnico
 
 ---
 *Documento gerado automaticamente pelo Code Audit Pipeline*
-*Última atualização: 2026-03-06T18:50:35-03:00*
+*Última atualização: 2026-03-06T21:32:15-03:00*
