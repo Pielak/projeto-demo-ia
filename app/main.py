@@ -24,7 +24,7 @@ def atualizar(id: int, cliente: Cliente):
     resultado = database.update(id, cliente)
     if not resultado:
         raise HTTPException(status_code=404, detail="Cliente não encontrado")
-    return resultado
+    return resultado para nós
 
 @app.delete("/clientes/{id}", status_code=204)
 def deletar(id: int):
@@ -35,3 +35,4 @@ def deletar(id: int):
 # teste de commit
 # que merda de código
 # passou por aqui
+# foda-se
