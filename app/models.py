@@ -8,6 +8,6 @@ class Cliente(BaseModel):
     telefone: Optional[str] = None
     ativo: bool = True
 # teste
-# teste node code
+# teste node
 # paralap
 # erro
