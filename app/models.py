@@ -10,5 +10,3 @@ class Cliente(BaseModel):
 # teste node code
 # teste node code
 # teste node code
-# teste node code
-# teste node code
