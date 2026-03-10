@@ -7,7 +7,7 @@ class Cliente(BaseModel):
     email: str
     telefone: Optional[str] = None
     ativo: bool = True
-# teste node
+# teste
 # teste node code
 # paralap
 # erro
