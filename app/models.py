@@ -9,5 +9,5 @@ class Cliente(BaseModel):
     ativo: bool = True
 # teste
 # teste node
-# paralap
+# par
 # erro
