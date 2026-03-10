@@ -34,4 +34,3 @@ def deletar(id: int):
 # outro 
 # testando PDF
 # mais um comentário bobo
-# mais um comentário sem sentido
