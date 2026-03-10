@@ -9,4 +9,4 @@ class Cliente(BaseModel):
     ativo: bool = True
 # teste node code
 # teste node code
-# paralappppp
+# paralap
