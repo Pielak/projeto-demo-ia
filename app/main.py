@@ -34,4 +34,3 @@ def deletar(id: int):
 # outro 
 # testando PDF
 # teste de commit
-# outra vez
