@@ -34,5 +34,4 @@ def deletar(id: int):
 # outro 
 # teste de commit
 # que merda de código
-# passou por aqui
-# foda-se
+# passou por a
